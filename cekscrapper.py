@@ -12,7 +12,7 @@ result, _ = reviews(
     lang='id',
     country='id',
     sort=Sort.NEWEST,
-    count=100,  # Anda bisa ubah jumlahnya sesuai kebutuhan UTS
+    count=58,  # Anda bisa ubah jumlahnya sesuai kebutuhan UTS
     filter_score_with=None
 )
 
