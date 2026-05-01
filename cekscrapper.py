@@ -5,7 +5,7 @@ import csv
 # =========================================================
 # 1. SCRAPING DATA (Ambil ulasan dari Google Play)
 # =========================================================
-print("1. Sedang mengambil data ulasan dari JKN Mobile...")
+print("1. Sedang mengambil data ulasan dari Cilegon juare...")
 
 result, _ = reviews(
     'com.cilegon.simapan',
@@ -50,7 +50,7 @@ for review in result:
 # =========================================================
 # 3. SIMPAN KE CSV
 # =========================================================
-filename = 'hasil_analisis_sentimen_jkn.csv'
+filename = 'hasil_analisis_sentimen_cilegon juare.csv'
 header = ['userName', 'score', 'at', 'content', 'sentiment', 'confidence']
 
 with open(filename, 'w', newline='', encoding='utf-8') as f:
